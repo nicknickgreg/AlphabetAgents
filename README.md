@@ -154,3 +154,25 @@ A foot is just like a head, only for the bottom of the character.
 * 1 head
 * 1 hips
 * 1 foot
+
+## Training Runs
+
+### Alphabet_00-0
+  * First run
+### Alphabet_01-0
+  * Stationary Target
+  * Reset when head hits ground
+  * Body parts get negative reward for touching ground
+  * Velocity alignment with goal direction.
+  * Rotation alignment with goal direction.
+  * Encourage head height.
+  * Discourage head movement.
+### Alphabet_02-0
+  * Random Stationary Target
+  * Reset when head hits ground
+  * Body parts get negative reward for touching ground
+  * Velocity alignment with goal direction.
+  * Rotation alignment with goal direction.
+  * Encourage head height.
+  * Discourage head movement.
+
